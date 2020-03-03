@@ -12,6 +12,7 @@ namespace my_stack
             public int count;
             public MyStackT(int length)
             {
+
                 try
                 {
                     array = new T[length];

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace my_stack
 { 
     class Program
@@ -17,6 +18,11 @@ namespace my_stack
                 System.Console.WriteLine(x);
             }
         }
+
+
+
+
+
         static void f1 (int x, MyStackT<int> arr)
         {
             arr = new MyStackT<int>(x * 2);
